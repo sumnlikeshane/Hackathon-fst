@@ -29,3 +29,15 @@ body {
   border: 1px solid var(--border);
   border-radius: 0.5rem;
 }
+
+.interactive-node {
+  @apply rounded-md text-sm px-3 py-1 border cursor-pointer transition duration-200 hover:shadow-lg;
+}
+
+.red-node {
+  @apply bg-red-100 border-red-500 text-red-700;
+}
+
+.blue-node {
+  @apply bg-blue-100 border-blue-500 text-blue-700;
+}

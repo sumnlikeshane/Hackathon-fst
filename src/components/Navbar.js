@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useAuth } from '../contexts/AuthContext';
 import { useRouter } from 'next/navigation';
+import { FaUserCircle } from 'react-icons/fa';  // Importing the user icon
 
 export default function Navbar() {
   const { currentUser, logout } = useAuth();
@@ -21,16 +22,23 @@ export default function Navbar() {
     <nav className="navbar px-4 py-3 flex justify-between items-center">
       <div>
         <Link href="/" className="text-xl font-bold text-white">
-        Screen<span className="text-accent">Sense</span>
+          Screen<span className="text-accent">Sense</span>
         </Link>
       </div>
 
       <div className="flex items-center space-x-4">
         {currentUser ? (
           <>
-            <span className="hidden md:inline text-gray-300 text-sm">
-              {currentUser.email}
-            </span>
+
+            {/* Profile Icon */}
+            <Link
+              href="/profile"
+              className="p-2 rounded-full hover:bg-blue-700 text-blue-500 hover:text-white border border-blue-500 transition-colors"
+            >
+              <FaUserCircle size={24} />
+            </Link>
+
+            {/* Logout Button */}
             <button
               onClick={handleLogout}
               className="px-3 py-1.5 text-sm rounded-md bg-transparent hover:bg-red-900 text-red-500 hover:text-red-100 border border-red-700 transition-colors"
@@ -57,4 +65,4 @@ export default function Navbar() {
       </div>
     </nav>
   );
-} 
+}
