@@ -49,7 +49,7 @@ export default function Home() {
             </>
           ) : (
             <>
-              <h1 className="text-3xl font-bold text-center">Welcome to FST<span className="text-accent">App</span></h1>
+              <h1 className="text-3xl font-bold text-center">Welcome to Screen<span className="text-accent">Sense</span></h1>
               <p className="text-gray-400 text-center max-w-md mx-auto">
                 Please sign up or log in to access your personalized dashboard and features.
               </p>

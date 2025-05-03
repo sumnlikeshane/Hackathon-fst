@@ -21,7 +21,7 @@ export default function Navbar() {
     <nav className="navbar px-4 py-3 flex justify-between items-center">
       <div>
         <Link href="/" className="text-xl font-bold text-white">
-          FST<span className="text-accent">App</span>
+        Screen<span className="text-accent">Sense</span>
         </Link>
       </div>
 
