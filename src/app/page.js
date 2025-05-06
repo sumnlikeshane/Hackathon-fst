@@ -31,11 +31,11 @@ export default function Home() {
                 className="w-1/2 rounded-lg shadow-md"
               />
               <p className="text-xl text-gray-300 leading-relaxed w-1/2">
-                Digital addiction, particularly to gaming and social media, is becoming a significant issue among Indian teenagers. With increasing screen time, mental, physical, and social health issues are emerging. Research has shown that the COVID-19 pandemic played a pivotal role in exacerbating this trend, driving more teenagers towards screens due to the lack of offline activities.
+                Digital addiction among Indian teenagers is a result of multiple interconnected elements within the socio-technical system—ranging from personal habits to platform design. The COVID-19 pandemic acted as a system disturbance, reinforcing existing feedback loops related to screen dependence by reducing access to offline engagement options.
               </p>
             </div>
             <p className="text-xl text-gray-300 leading-relaxed">
-              A national survey in 2023 revealed that 60% of teens aged 9-17 spend over three hours daily on social media or gaming. Yet, only 10% report feeling happier after screen time. This stark contrast emphasizes the potential harms associated with excessive screen use. Understanding these factors is crucial for developing effective interventions.
+              System behavior analysis reveals that although 60% of teens engage in screen use for more than three hours daily, only a fraction derive long-term satisfaction—suggesting a reinforcing loop where screen exposure does not equate to emotional well-being. Uncovering these underlying dynamics is essential to identify effective leverage points for intervention.
             </p>
           </section>
 
@@ -93,11 +93,12 @@ export default function Home() {
               />
             </div>
             <ul className="list-disc pl-6 text-xl text-gray-300 space-y-3">
-              <li><strong>Addictive Platform Design:</strong> Social media and gaming platforms are designed to be highly engaging, with features like notifications, rewards, and social validation mechanisms that encourage constant usage. The use of algorithms that prioritize sensational content fuels prolonged screen time.</li>
-              <li><strong>Accessibility of Technology:</strong> Affordable smartphones and widespread internet access make screens easily accessible to teenagers. The rapid adoption of mobile technology, combined with low-cost data plans, has brought smartphones into the hands of even the most economically disadvantaged teens.</li>
-              <li><strong>Social and Escapist Needs:</strong> Teenagers often use screens as a way to socialize virtually and escape stress, especially during the pandemic when offline activities were limited. This usage also serves as a coping mechanism for loneliness, anxiety, and other emotional struggles.</li>
-              <li><strong>Peer Influence and Social Media Pressure:</strong> Social media platforms amplify peer influence, with many teenagers feeling the pressure to stay connected online, share personal details, and maintain an image that aligns with popular trends. This often leads to unhealthy digital habits.</li>
+              <li><strong>Reinforcing Platform Design:</strong> Platforms operate as self-reinforcing feedback systems, where notifications and gamified interactions increase user engagement, which in turn triggers more algorithmic targeting and emotional dependence.</li>
+              <li><strong>Technology Access as an Enabler:</strong> The wide availability of smartphones and low-cost data act as structural enablers within the system, amplifying screen exposure and normalizing prolonged digital consumption across socioeconomic strata.</li>
+              <li><strong>Social Needs & Emotional Loops:</strong> Teenagers often engage with screens to meet emotional needs—creating balancing loops where temporary stress relief reinforces long-term disengagement from physical environments.</li>
+              <li><strong>Peer Norms as Mental Models:</strong> Peer pressure and social media expectations shape mental models around identity and success, thereby normalizing digital overuse and discouraging self-regulation practices.</li>
             </ul>
+
           </section>
 
           {/* Impacts Section */}
@@ -161,11 +162,10 @@ export default function Home() {
               </p>
             </div>
             <ul className="list-disc pl-6 text-xl text-gray-300 space-y-3">
-              <li><strong>Regulating Platform Design:</strong> Implementing policies that limit addictive features like notifications or excessive rewards can reduce compulsive screen use.</li>
-              <li><strong>Enhancing Digital Literacy:</strong> Schools should teach digital well-being, making students aware of the risks of excessive screen time and promoting healthy engagement with technology.</li>
-              <li><strong>Promoting Offline Activities:</strong> Physical activities, arts, and social events should be encouraged to provide alternatives to screen time.</li>
-              <li><strong>Expanding Mental Health Support:</strong> Schools should offer accessible counseling and therapy for students dealing with anxiety, depression, and stress.</li>
-              <li><strong>Parental Control and Guidance:</strong> Parents should be provided with tools to help manage their children's screen time effectively and promote healthier habits.</li>
+              <li><strong>Design-Based Leverage:</strong> Redesigning platform features to reduce addictive feedback (like infinite scrolling and constant alerts) can shift user behavior without removing the technology itself.</li>
+              <li><strong>Shifting Mental Models:</strong> Educating teens on digital well-being can help reframe beliefs about constant connectivity, creating long-term shifts in usage behavior across the system.</li>
+              <li><strong>Strengthening Alternative Feedback Loops:</strong> Supporting offline activities introduces positive feedback cycles that counteract digital overuse by fulfilling social and emotional needs in healthier ways.</li>
+              <li><strong>Policy-Level Interventions:</strong> Implementing guardrails at the system level—such as screen-time guidelines in schools—can stabilize the system against unregulated screen exposure.</li>
             </ul>
           </section>
 
