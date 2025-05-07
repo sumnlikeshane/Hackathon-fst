@@ -303,7 +303,7 @@ export default function CLD() {
 
       {selectedNode && (
         <div className="absolute top-5 left-5 max-w-sm bg-white border border-gray-300 rounded-xl shadow-xl p-4 z-50">
-          <h3 className="text-black font-semibold text-white mb-1">{selectedNode.title}</h3>
+          <h3 className="text-blue-700 font-semibold mb-1">{selectedNode.title}</h3>
           <p className="text-sm text-gray-700 mb-2">{selectedNode.explanation}</p>
           <div className="bg-blue-50 text-blue-800 text-sm border-l-4 border-blue-400 px-3 py-2 rounded">
             <strong>Tip:</strong> {selectedNode.tip}
